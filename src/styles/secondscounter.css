@@ -1,0 +1,17 @@
+
+.regressive,
+.pause,
+.continue,
+.restart {
+    transition: transform 0.7s; /* Agrega una transición suave para el efecto */
+    width: 10rem;
+    height: 30px;
+}
+
+.regressive:hover,
+.pause:hover,
+.continue:hover,
+.restart:hover {
+    transform: rotate(360deg); 
+    /* Rota el botón 360 grados al pasar el mouse */
+}
